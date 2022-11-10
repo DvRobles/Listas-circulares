@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas circulares</title>
+</head>
+<body>
+<header>
+    <h1>Ruta de transporte</h1>
+</header>
+<div>
+    <form>
+        <div>
+            <label 
+            >Nombre:</label>
+            <input type="text" id="nombre">
+        </div>
+        <div>
+                <label 
+                >Minutos:</label>
+                <input type="number" id="minutos">
+        </div>
+        <div>
+            <button type="button" id="BtnAdd">Agregar</button>
+        </div>
+        <div>
+            <h1>Busqueda de Ruta</h1>
+            <label 
+                >Busqueda:</label>
+                <input type="text" id="found-R">
+        </div>
+        <button type="button" id="BtnFound">Buscar</button>
+        <button type="button" id="BtnDelete">Eliminar</button>
+        <button type="button" id="BtnPrint">Imprimir</button>
+        <div>
+            <h1>Recorrido</h1>
+                <form>
+                    <div>
+                        <label 
+                        >Base Inicio:</label>
+                        <input type="text" id="nombre">
+                    </div>
+                    <div>
+                        <label 
+                        >Hora Inicio:</label>
+                        <input type="number" id="horaI">
+                    </div>
+                    <div>
+                        <label 
+                        >Minuto Inicio:</label>
+                        <input type="number" id="minI">
+                    </div>
+                    <div>
+                    <label 
+                        >Hora Fin:</label>
+                        <input type="number" id="horaF">
+                    </div>
+                    <div>
+                        <label 
+                        >Minuto Fin:</label>
+                        <input type="number" id="minF">
+                    </div>
+                    <div>
+                        <button type="button" id="BtnStart">Inciar Recorrido</button>
+                    </div>
+                    <div>
+                        <h2 id="admin">Bases</h2>
+                        <ul id="print"></ul>
+                    </div>
+                <div id="resultado">
+                </div>
+        </div>
+</form> 
+</div>
+<script src="app.js"></script>
+</body>
+</html>
